@@ -1,7 +1,6 @@
 :root {
     --primary-color-one: hsl(179, 62%, 43%);
     --primary-color-two: hsl(71, 73%, 54%);
-
     --neutral-color-one: hsl(204, 43%, 93%);
 }
 
@@ -74,7 +73,7 @@ body {
 }
 
 .section-price_month-price > span:last-child {
-    color: var(--neutral-color-one);
+    color: hsla(204, 43%, 93%, .7);
 }
 
 .btn {
@@ -83,7 +82,7 @@ body {
     padding: 0;
     margin-top: 15px;
     border: none;
-    border-radius: 6px;
+    border-radius: 5px;
     color: hsl(0, 0%, 100%);
     text-transform: capitalize;
     background-color: var(--primary-color-two);
@@ -105,7 +104,7 @@ body {
 }
 
 .section-why-us_list > li {
-    margin-bottom: 3px;
+    margin-bottom: 4px;
 }
 
 @media screen and (min-width: 730px) {
@@ -114,7 +113,7 @@ body {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 2(1fr);
-        width: 600px;
+        width: 660px;
     }
 
     .section-description,
@@ -133,7 +132,7 @@ body {
     }
 
     .section-description_paragraph {
-        max-width: 500px;
+        max-width: 530px;
         margin-bottom: 12px;
     }
 
@@ -143,7 +142,8 @@ body {
     }
 
     .btn {
-        width: 85%;
+        width: 88%;
+        margin-top: 18px;
     }
 
     .section-why-us {
